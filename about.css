@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.6); /* For darkening the background */
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
     border-radius: 10px;
 }
@@ -62,4 +62,5 @@ body {
 .rating:empty::before {
     content: '☆';
     color: gold;
+
 }
