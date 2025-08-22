@@ -1,0 +1,109 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#333;
+    background: url('background image.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire viewport */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:burlywood; /* Semi-transparent background */
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    height:50px;
+    width: auto;    
+}
+img {
+    border-radius: 50%;
+  }
+  
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color:darkslategrey;
+}
+
+/* Home section styling */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Adjust this height as needed */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#goToHomeBtn {
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#goToHomeBtn:hover {
+    background-color:#333;
+}
+
+#centered-button p {
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWB82-OEDpbnOlBOiydTXqhhXH3fjjlo6zw&s');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    background: wheat;
+    border-radius: 8px;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 70%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+.menu-item span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-item button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #ff4500;
+}
+
+.cart-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+}
+.cart-container button:hover{
+    background-color: orangered;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-items li span {
+    font-weight: bold;
+}
+
+#cart-total {
+    font-size: 23px;
+}
+.order-success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+}
+
+.order-success img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+body.dimmed {
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    
+}
