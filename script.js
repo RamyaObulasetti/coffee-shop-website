@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
     });
 
-    // Adding smooth scroll effect for navigation links
+   
     const navLinks = document.querySelectorAll('nav ul li a');
 
     navLinks.forEach(link => {
@@ -15,9 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetSection = document.getElementById(targetId);
 
             window.scrollTo({
-                top: targetSection.offsetTop - 60, // Adjust for header height
+                top: targetSection.offsetTop - 60, 
                 behavior: 'smooth'
             });
         });
     });
+
 });
