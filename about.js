@@ -1,4 +1,4 @@
-// script.js
+
 
 function addReview(reviewText, rating) {
     const reviewSection = document.querySelector('.reviews-section');
@@ -13,5 +13,5 @@ function addReview(reviewText, rating) {
     reviewSection.appendChild(newReview);
 }
 
-// Example of adding a review dynamically
+
 addReview('"Fantastic place to unwind!" - Emily Rose', 5);
