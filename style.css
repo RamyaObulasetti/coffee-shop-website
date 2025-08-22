@@ -1,19 +1,19 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color:#333;
     background: url('background image.jpg') no-repeat center center fixed;
-    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-size: cover; 
 }
 
-/* Header styling */
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:burlywood; /* Semi-transparent background */
+    background-color:burlywood;
     color: #fff;
     padding: 10px 20px;
     position: relative;
@@ -59,19 +59,19 @@ nav ul li a:hover {
     background-color:darkslategrey;
 }
 
-/* Home section styling */
+
 #home {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh; /* Adjust this height as needed */
+    min-height: 80vh; 
     padding: 20px;
     text-align: center;
     color: #fff;
 }
 
 .content {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -97,7 +97,7 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Footer styling */
+
 footer {
     text-align: center;
     padding: 10px;
@@ -106,4 +106,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
